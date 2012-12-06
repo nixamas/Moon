@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView android:layout_height="wrap_content" android:id="@+id/place_bid_title" android:layout_width="wrap_content" android:text="@string/placebid" android:textSize="30dp" android:gravity="fill_horizontal" android:layout_gravity="center_horizontal" android:layout_marginTop="5dp"></TextView>
+    <Button android:id="@+id/player1_bid" android:text="@string/plyr1" android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_below="@+id/team1_score"></Button>
+    <Button android:id="@+id/player2_bid" android:text="@string/plyr2" android:layout_below="@+id/player1_bid" android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:layout_width="fill_parent"></Button>
+    <Button android:id="@+id/player3_bid" android:text="@string/plyr3" android:layout_below="@+id/player2_bid" android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:layout_width="fill_parent"></Button>
+    <Button android:id="@+id/player4_bid" android:text="@string/plyr4" android:layout_below="@+id/player3_bid" android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:layout_width="fill_parent"></Button>
+    <Button android:id="@+id/start_game" android:text="@string/enter_trump" android:layout_height="wrap_content" android:layout_width="fill_parent" android:visibility="invisible" android:layout_below="@+id/player4_bid"></Button>
+    <Button android:layout_width="fill_parent" android:id="@+id/move_button" android:layout_height="wrap_content" android:layout_marginTop="125dp" android:visibility="invisible" android:layout_alignParentBottom="true"></Button>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_alignParentLeft="true" android:id="@+id/team1_score" android:layout_marginRight="15dp" android:layout_below="@+id/place_bid_title" android:text="Team 1: 0"></TextView>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/team2_score" android:layout_marginRight="15dp" android:text="Team 2: 0" android:layout_below="@+id/place_bid_title" android:layout_alignParentRight="true"></TextView>
+</RelativeLayout>

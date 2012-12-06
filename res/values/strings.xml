@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Moon</string>
+    <string name="plyr1">PLAYER 1</string>
+    <string name="plyr2">PLAYER 2</string>
+    <string name="plyr3">PLAYER 3</string>
+    <string name="plyr4">PLAYER 4</string>
+    <string name="placebid">PLACE YOUR BIDS</string>
+    <string name="start_game">START GAME</string>
+    <string name="shoot_moon">SHOOT THE MOON</string>
+    <string name="enter_trump">ENTER TRUMP</string>
+    <string name="team1Vertical">T\nE\nA\nM\n \n1</string>
+    <string name="team2Vertical">T\nE\nA\nM\n \n2</string>
+</resources>

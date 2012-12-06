@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout android:fillViewport="true" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/relLayout1">
+        <TextView android:id="@+id/player_screen_title" android:text="PLAYER SCREEN" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_centerHorizontal="true" android:layout_width="fill_parent" android:gravity="center_horizontal" android:background="@color/Black"></TextView>
+        <Gallery android:id="@+id/domGallery" 
+        	android:layout_width="fill_parent" 
+        	android:background="@color/Green" 
+        	android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        </Gallery>
+        <TableLayout android:layout_height="wrap_content" android:layout_above="@+id/domGallery" android:id="@+id/trick_table" android:layout_marginBottom="10dp" android:layout_below="@+id/team2" android:layout_alignParentLeft="true" android:layout_width="wrap_content" android:layout_toLeftOf="@+id/played_dom_table"></TableLayout>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_alignParentLeft="true" android:id="@+id/team1" android:text="TEAM 1: XX" android:layout_below="@+id/player_screen_title" android:textSize="20dp" android:textStyle="bold"></TextView>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/team2" android:text="TEAM 2: XX" android:layout_below="@+id/team1" android:layout_alignParentLeft="true" android:textSize="20dp" android:textStyle="bold"></TextView>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_below="@+id/player_screen_title" android:layout_toRightOf="@+id/team1" android:id="@+id/trmp" android:text="TRUMP X" android:paddingLeft="15dp" android:textSize="20dp" android:textStyle="bold"></TextView>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_toRightOf="@+id/team2" android:id="@+id/bid" android:text="BID X" android:paddingLeft="15dp" android:layout_below="@+id/trmp" android:textSize="20dp" android:textStyle="bold"></TextView>
+        <TableLayout android:layout_height="wrap_content" android:id="@+id/played_dom_table" android:layout_alignParentRight="true" android:layout_below="@+id/player_screen_title" android:layout_above="@+id/domGallery" android:layout_width="wrap_content">
+        </TableLayout>
+    </RelativeLayout>
+

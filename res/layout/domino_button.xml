@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout android:id="@+id/relativeLayout1" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="fill_parent" android:layout_width="wrap_content">
+    	<ImageButton android:layout_width="wrap_content" 
+		   	android:layout_height="wrap_content" 
+		   	android:id="@+id/domino_button" 
+		   	android:background="@drawable/domino_image" android:clickable="true">
+		</ImageButton>
+    	<ImageView android:layout_width="wrap_content" 
+	    	android:id="@+id/weight_pips" 
+	    	android:layout_height="wrap_content" 
+	    	android:layout_alignLeft="@+id/domino_button" 
+	    	android:layout_alignRight="@+id/domino_button" 
+	    	android:layout_alignBottom="@+id/domino_button" android:clickable="true">
+    	</ImageView>
+    	<ImageView android:layout_height="wrap_content" 
+	    	android:id="@+id/suit_pips" 
+	    	android:layout_width="fill_parent" 
+	    	android:layout_alignLeft="@+id/domino_button" 
+	    	android:layout_alignRight="@+id/domino_button" android:clickable="true">
+    	</ImageView>
+    </RelativeLayout>
+

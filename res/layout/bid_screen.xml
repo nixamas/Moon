@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:visibility="visible" android:id="@+id/LinearLayout" android:background="@color/White" android:orientation="horizontal">
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_height="match_parent" android:layout_width="wrap_content" android:orientation="vertical" android:visibility="visible">
+        <TextView android:text="PREVIOUS BID : " android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="20dp" android:id="@+id/prevBid" android:visibility="visible" android:textColor="@color/Black" android:paddingTop="20dp" android:paddingBottom="20dp"></TextView>
+        <TextView android:text="PLEASE ENTER YOUR BID : " android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/plyrBid" android:textSize="20dp" android:visibility="visible" android:textColor="@color/Black" android:paddingTop="20dp"></TextView>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/bt_pass" android:text="PASS" android:width="80dp" android:visibility="visible" android:textColor="@color/Black" android:layout_marginTop="45dp"></Button>
+        <Button android:id="@+id/bt_shoot_moon" android:text="@string/shoot_moon" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginLeft="105dp"></Button>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout2" android:layout_height="match_parent" android:orientation="vertical" android:visibility="visible" android:layout_width="wrap_content" android:layout_marginLeft="270dp">
+        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="20dp" android:id="@+id/prevBidVal" android:text="N/A" android:visibility="visible" android:textColor="@color/Black" android:paddingBottom="20dp" android:paddingTop="20dp"></TextView>
+        <EditText android:inputType="number" android:layout_height="wrap_content" android:layout_weight="0" android:layout_marginTop="15dp" android:id="@+id/txt_input" android:visibility="visible" android:layout_width="wrap_content" android:minWidth="100dp"></EditText>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/bt_bid" android:text="BID" android:width="80dp" android:visibility="visible" android:layout_marginTop="25dp"></Button>
+    </LinearLayout>
+    <Gallery android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_gravity="bottom" android:id="@+id/domGallery"></Gallery>
+</FrameLayout>

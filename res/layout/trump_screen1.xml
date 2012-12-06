@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout android:fillViewport="true" android:id="@+id/frameLayout1" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="wrap_content" android:layout_width="wrap_content" android:fitsSystemWindows="true">
+			<RelativeLayout android:gravity="center" android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/trumpButtons">
+				<Button android:layout_height="wrap_content" android:id="@+id/followMe" android:layout_width="wrap_content" android:layout_toRightOf="@+id/bt_6" android:text="FM"></Button>
+                <Button android:id="@+id/bt_6" android:layout_width="wrap_content" android:text="6" android:minWidth="40dp" android:layout_height="wrap_content" android:layout_toRightOf="@+id/bt_5" android:textColor="@color/Black" android:textSize="30dp"></Button>
+                <Button android:id="@+id/bt_5" android:layout_width="wrap_content" android:text="5" android:minWidth="40dp" android:layout_height="wrap_content" android:layout_toRightOf="@+id/bt_4" android:textColor="@color/Black" android:textSize="30dp"></Button>
+                <Button android:id="@+id/bt_4" android:layout_width="wrap_content" android:text="4" android:minWidth="40dp" android:layout_height="wrap_content" android:layout_toRightOf="@+id/bt_3" android:textColor="@color/Black" android:textSize="30dp"></Button>
+                <Button android:id="@+id/bt_3" android:layout_width="wrap_content" android:text="3" android:minWidth="40dp" android:layout_height="wrap_content" android:layout_toRightOf="@+id/bt_2" android:textColor="@color/Black" android:textSize="30dp"></Button>
+                <Button android:id="@+id/bt_2" android:layout_width="wrap_content" android:text="2" android:minWidth="40dp" android:layout_height="wrap_content" android:layout_toRightOf="@+id/bt_1" android:textColor="@color/Black" android:textSize="30dp"></Button>
+                <Button android:id="@+id/bt_1" android:layout_width="wrap_content" android:text="1" android:minWidth="40dp" android:layout_height="wrap_content" android:layout_toRightOf="@+id/bt_0" android:textColor="@color/Black" android:textSize="30dp"></Button>
+                <Button android:layout_height="wrap_content" android:text="0" android:id="@+id/bt_0" android:textSize="30dp" android:textColor="@color/Black" android:layout_width="wrap_content" android:minWidth="40dp"></Button>
+            </RelativeLayout>
+        <Gallery android:id="@+id/domGallery" android:layout_width="fill_parent" android:background="@color/Green" android:layout_height="wrap_content" android:layout_below="@+id/trumpButtons"></Gallery>
+    </RelativeLayout>
+
